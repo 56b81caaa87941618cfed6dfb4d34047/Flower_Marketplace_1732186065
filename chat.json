@@ -6,46 +6,5 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
-    },
-    {
-        "id": "d8b563df-742b-4741-b21e-015f571aa61b",
-        "timestamp": "2024-11-21T10:51:45.273082Z",
-        "role": "user",
-        "source": "web_client",
-        "content": "generate a frontend to interact with the smart contract with address 0x1F98431c8aD98523631AE4a59f267346ea31F984\ton ETH",
-        "metadata": {
-            "component_id": "Header1732186069"
-        }
-    },
-    {
-        "id": "140f3360-51e4-479d-ae31-b76c610891b8",
-        "timestamp": "2024-11-21T10:51:49.296554Z",
-        "role": "tool_call",
-        "source": "base_assistant",
-        "content": null,
-        "metadata": {
-            "id": "call_A5lYUTWsN94NFxnq3AzVAIRE",
-            "function": {
-                "arguments": "{\"component_id\":\"Header1732186069\",\"sc_address\":\"0x1F98431c8aD98523631AE4a59f267346ea31F984\",\"chain_id\":\"ETHEREUM\",\"change_description\":\"Integrate smart contract interaction with the provided address\",\"acknowledgement_message\":\"Okay, I'm editing the component to interact with the smart contract at 0x1F98431c8aD98523631AE4a59f267346ea31F984 on Ethereum\"}",
-                "name": "EditSmartContractFrontendComponent"
-            },
-            "type": "function"
-        }
-    },
-    {
-        "id": "24ffefea-2bdd-41bc-8071-8815fe635ef1",
-        "timestamp": "2024-11-21T10:51:50.666072Z",
-        "role": "assistant",
-        "source": "tool:edit_smart_contract_frontend_component",
-        "content": "Okay, I'm editing the component to interact with the smart contract at 0x1F98431c8aD98523631AE4a59f267346ea31F984 on Ethereum",
-        "metadata": {}
-    },
-    {
-        "id": "e59b85b6-ecb7-4f35-a958-68f261974977",
-        "timestamp": "2024-11-21T10:57:13.485646Z",
-        "role": "user",
-        "source": "web_client",
-        "content": "generate a frontend to interact with the smart contract with address 0x1F98431c8aD98523631AE4a59f267346ea31F984 on ETH",
-        "metadata": {}
     }
 ]
